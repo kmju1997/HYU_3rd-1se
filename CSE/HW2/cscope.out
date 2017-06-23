@@ -1,0 +1,920 @@
+cscope 15 $HOME/Documents/git/DS/2017_CSE2010_201311372/HW2 -q 0000000049 0000003904
+	@HW2_given.c
+
+2 
+	#_CRT_SECURE_NO_WARNINGS
+
+
+	)
+
+4 
+	~<°dio.h
+>
+
+5 
+	~<°dlib.h
+>
+
+7 
+Node
+* 
+	tPåToNode
+;
+
+8 
+PåToNode
+ 
+	tLi°
+;
+
+9 
+PåToNode
+ 
+	tPosôi⁄
+;
+
+10 
+	sEÀmítTy≥
+{
+
+11 
+	mkey
+;
+
+12 
+	mvÆue
+;
+
+13 }
+	tEÀmítTy≥
+;
+
+14 
+	sNode
+{
+
+15 
+EÀmítTy≥
+ 
+	mñemít
+;
+
+16 
+Posôi⁄
+ 
+	m√xt
+;
+
+19 
+Li°
+ 
+MakeEm±y
+(Li° 
+L
+);
+
+20 
+IsEm±y
+(
+Li°
+ 
+L
+);
+
+21 
+isLa°
+(
+Posôi⁄
+ 
+P
+, 
+Li°
+ 
+L
+);
+
+22 
+Dñëe
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+);
+
+23 
+Posôi⁄
+ 
+FödPªvious
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+);
+
+24 
+Posôi⁄
+ 
+Föd
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+);
+
+25 
+In£π
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+, 
+Posôi⁄
+ 
+P
+);
+
+26 
+DñëeLi°
+(
+Li°
+ 
+L
+);
+
+27 
+PrötLi°
+(
+Li°
+ 
+L
+);
+
+29 
+	$maö
+(
+¨gc
+, *
+¨gv
+[]) {
+
+30 
+comm™d
+;
+
+31 
+key1
+, 
+key2
+;
+
+32 
+FILE
+ *
+öput
+;
+
+33 
+EÀmítTy≥
+ 
+ö
+;
+
+34 
+Posôi⁄
+ 
+hódî
+ = 
+NULL
+;
+
+35 
+Posôi⁄
+ 
+tmp
+ = 
+NULL
+;
+
+36 
+Posôi⁄
+ 
+tmp2
+ = 
+NULL
+;
+
+37 if(
+¨gc
+ == 1)
+
+38 
+öput
+ = 
+	`f›í
+("input.txt", "r");
+
+40 
+öput
+ = 
+	`f›í
+(
+¨gv
+[1], "r");
+
+41 
+hódî
+ = 
+	`MakeEm±y
+(header);
+
+43 
+comm™d
+ = 
+	`fgëc
+(
+öput
+);
+
+44 if(
+	`„of
+(
+öput
+)) ;
+
+45 
+comm™d
+) {
+
+47 
+	`fsˇnf
+(
+öput
+, "%d %d", &
+key1
+, &
+key2
+);
+
+48 
+ö
+.
+key
+ = 
+key1
+;
+
+50 
+tmp
+ = 
+	`Föd
+(
+ö
+, 
+hódî
+);
+
+51 if(
+tmp
+ !
+NULL
+) {
+
+52 
+	`¥ötf
+("ThîêÆªady i†™ÉÀmíàwôh key %d. In£πi⁄ faûed\n", 
+key1
+);
+
+55 if(
+key2
+ != -1){
+
+56 
+ö
+.
+key
+ = 
+key2
+;
+
+57 
+tmp2
+ = 
+	`Föd
+(
+ö
+,
+hódî
+);
+
+58 if(
+tmp2
+ =
+NULL
+) {
+
+59 
+	`¥ötf
+("Thîêi†nÿñemíàwôh key %d. In£πi⁄ faûed\n", 
+key2
+);
+
+62 
+	`In£π
+(
+ö
+,
+hódî
+,
+tmp2
+);
+
+69 
+	`In£π
+(
+ö
+, 
+hódî
+, 
+tmp
+);
+
+72 
+	`fsˇnf
+(
+öput
+, "%d", &
+key1
+);
+
+73 
+ö
+.
+key
+ = 
+key1
+;
+
+74 
+	`Dñëe
+(
+ö
+, 
+hódî
+);
+
+77 
+	`fsˇnf
+(
+öput
+, "%d", &
+key1
+);
+
+78 
+ö
+.
+key
+ = 
+key1
+;
+
+79 
+tmp
+ = 
+	`FödPªvious
+(
+ö
+, 
+hódî
+);
+
+80 if(
+	`isLa°
+(
+tmp
+, 
+hódî
+))
+
+81 
+	`¥ötf
+("CouldÇŸ föd %d i¿thêli°\n", 
+key1
+);
+
+83 if(
+tmp
+->
+ñemít
+.
+key
+>0)
+
+84 
+	`¥ötf
+("Key o‡thê¥eviou†nodêo‡%d i†%d.\n", 
+key1
+, 
+tmp
+->
+ñemít
+.
+key
+);
+
+86 
+	`¥ötf
+("Key o‡thê¥eviou†nodêo‡%d i†hódî.\n", 
+key1
+);
+
+90 
+	`PrötLi°
+(
+hódî
+);
+
+96 
+	`sy°em
+("PAUSE");
+
+97 
+	`DñëeLi°
+(
+hódî
+);
+
+98 
+	`f˛o£
+(
+öput
+);
+
+103 
+Li°
+ 
+	`MakeEm±y
+(Li° 
+L
+) {
+
+104 
+L
+ = (
+Li°
+)
+	`mÆloc
+((
+Node
+));
+
+105 
+L
+->
+ñemít
+.
+key
+ = -30;
+
+106 
+L
+->
+ñemít
+.
+vÆue
+ = -30.0;
+
+107 
+L
+->
+√xt
+ = 
+NULL
+;
+
+108  
+L
+;
+
+111 
+	`isEm±y
+(
+Li°
+ 
+L
+) {
+
+112  
+L
+->
+√xt
+ =
+NULL
+;
+
+116 
+	`isLa°
+(
+Posôi⁄
+ 
+P
+, 
+Li°
+ 
+L
+) {
+
+117 
+Posôi⁄
+ 
+cur
+ = 
+L
+;
+
+118 
+cur
+->
+√xt
+ !
+NULL
+) {
+
+119 
+cur
+ = cur->
+√xt
+;
+
+121  
+P
+ =
+cur
+;
+
+125 
+Posôi⁄
+ 
+	`FödPªvious
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+) {
+
+126 
+Posôi⁄
+ 
+P
+ = 
+NULL
+;
+
+127 
+P
+ = 
+L
+;
+
+128 
+P
+->
+√xt
+ !
+NULL
+ && P->√xt->
+ñemít
+.
+key
+ !=
+X
+.key) {
+
+129 
+P
+ = P->
+√xt
+;
+
+131  
+P
+;
+
+135 
+	`DñëeLi°
+(
+Li°
+ 
+L
+) {
+
+136 
+Posôi⁄
+ 
+P
+ = 
+NULL
+, 
+Tmp
+ = NULL;
+
+137 
+P
+ = 
+L
+->
+√xt
+;
+
+138 
+L
+->
+√xt
+ = 
+NULL
+;
+
+139 
+P
+ !
+NULL
+)
+
+141 
+Tmp
+ = 
+P
+->
+√xt
+;
+
+142 
+	`‰ì
+(
+P
+);
+
+143 
+P
+ = 
+Tmp
+;
+
+147 
+Posôi⁄
+ 
+	`Föd
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+) {
+
+148 
+Posôi⁄
+ 
+P
+ = 
+NULL
+;
+
+149 if(
+X
+.
+key
+<0Ë 
+L
+;
+
+150 
+P
+ = 
+	`FödPªvious
+(
+X
+, 
+L
+);
+
+151  
+P
+->
+√xt
+;
+
+155 
+	`In£π
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+, 
+Posôi⁄
+ 
+P
+) {
+
+156 
+Posôi⁄
+ 
+Tmp
+ = 
+NULL
+;
+
+158 if(
+X
+.
+key
+<0) {
+
+159 
+	`¥ötf
+("PÀa£ u£Öosôivêöput. %d c™nŸ bêö£πed\n", 
+X
+.
+key
+);
+
+165 
+Tmp
+ = (
+Posôi⁄
+)
+	`mÆloc
+((
+Node
+));
+
+166 
+Tmp
+->
+ñemít
+ = 
+X
+;
+
+167 if(
+P
+==
+NULL
+) {
+
+168 
+	`¥ötf
+("In£πi⁄(%dËFaûed : c™nŸ födÅhêloˇti⁄Åÿbêö£πed\n", 
+X
+.
+key
+);
+
+169 
+	`‰ì
+(
+Tmp
+);
+
+172 
+Tmp
+->
+√xt
+ = 
+P
+->next;
+
+173 
+P
+->
+√xt
+ = 
+Tmp
+;
+
+177 
+	`PrötLi°
+(
+Li°
+ 
+L
+) {
+
+178 
+PåToNode
+ 
+tmp
+ = 
+NULL
+;
+
+179 
+tmp
+ = 
+L
+->
+√xt
+;
+
+180 if(
+tmp
+==
+NULL
+) {
+
+181 
+	`¥ötf
+("list isÉmpty!\n");
+
+184 
+tmp
+!=
+NULL
+) {
+
+189 
+	`¥ötf
+("\n");
+
+192 
+	`Dñëe
+(
+EÀmítTy≥
+ 
+X
+, 
+Li°
+ 
+L
+) {
+
+193 
+Posôi⁄
+ 
+P
+ = 
+NULL
+, 
+Tmp
+ = NULL;
+
+195 
+P
+ = 
+	`FödPªvious
+(
+X
+, 
+L
+);
+
+196 i‡(!
+	`isLa°
+(
+P
+, 
+L
+)) {
+
+201 
+	`¥ötf
+("Dñëi⁄ faûed :ÉÀmíà%d i†nŸ i¿thêli°\n", 
+X
+.
+key
+);
+
+	@
+1
+.
+0
+1
+12
+HW2_given.c

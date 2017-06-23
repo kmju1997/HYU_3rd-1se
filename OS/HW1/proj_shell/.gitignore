@@ -1,0 +1,5 @@
+*.o
+shell
+cscope.*
+ClkSkew.sh
+*.swp

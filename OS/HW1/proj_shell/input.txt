@@ -1,0 +1,4 @@
+ls;pwd; echo a;
+echo 1
+echo hello;    quit
+echo Is it possible?
