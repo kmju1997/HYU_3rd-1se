@@ -1,6 +1,6 @@
 # 3rd-1se
 Hyu-3rd-1se
-> 2017년 3학년 1학기 Hyu GitLab 과제 기록들 입니다. 완벽하지 않아요
+> 2017년 3학년 1학기  Hyu GitLab 과제 기록들 입니다. 완벽하지 않아요
 
 <br></br>
 
@@ -32,6 +32,7 @@ Hyu-3rd-1se
 <br></br>
 ### 소프트웨어스튜디오
 -  한양대학교 수업 족보게시판 - iOS앱개발(Swift)
+https://github.com/ProjectInTheClass/HyuJokbo
 https://projectintheclass.github.io/HyuJokbo/
 
 <br></br>
