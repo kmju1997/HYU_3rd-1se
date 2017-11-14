@@ -42,17 +42,6 @@ Hyu-3rd-1se
 	- 3. Jigsaw Sudoku를 해결
 	
 
-
-<br></br>
-### 소프트웨어스튜디오
--  한양대학교 수업 족보게시판 - iOS앱개발(Swift)
-   기본적 앱 개발 디자인 이해,  
-   iOS앱 이메일 회원가입 구현 -  facebook,google OAuth API 사용  
-   실시간 게시판 데이터 저장/로드 구현 – Firebase Database/Firebase Storage 사용  
-   https://github.com/ProjectInTheClass/HyuJokbo  
-   https://projectintheclass.github.io/HyuJokbo/  
-
-
 <br></br>
 ### 데이터통신 ./DT/
 - HW1
@@ -71,6 +60,17 @@ Hyu-3rd-1se
 	- 신뢰성있는 UDP 채팅
 	- LLC포맷으로 데이터를 보내고, 각 클라이언트는 이 데이터의 헤더 및 Control field를 읽을 수 있어야한다.
 
+
+
+
+<br></br>
+### 소프트웨어스튜디오
+-  한양대학교 수업 족보게시판 - iOS앱개발(Swift)
+   기본적 앱 개발 디자인 이해,  
+   iOS앱 이메일 회원가입 구현 -  facebook,google OAuth API 사용  
+   실시간 게시판 데이터 저장/로드 구현 – Firebase Database/Firebase Storage 사용  
+   https://github.com/ProjectInTheClass/HyuJokbo  
+   https://projectintheclass.github.io/HyuJokbo/  
 
 
 <br></br>
