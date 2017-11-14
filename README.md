@@ -30,6 +30,20 @@ Hyu-3rd-1se
 
 
 <br></br>
+### 프로그래밍 언어론 ./PL/
+- HW1
+	- FSA, LR 파서를 실행하는 c/c++ 함수를 만들어라
+	- 1. FSA로 부터 DFA를 build하는 함수 작성
+	- 2. LR parsing table로 부터 LR parser를 구현
+	- 3. 정규표현식으로 부터 DFA를 build하는 함수 작성
+- HW2
+	- 1. Prime들을 찾는 하스켈 함수 구현
+	- 2. flip coin
+	- 3. Jigsaw Sudoku를 해결
+	
+
+
+<br></br>
 ### 소프트웨어스튜디오
 -  한양대학교 수업 족보게시판 - iOS앱개발(Swift)
    기본적 앱 개발 디자인 이해,  
@@ -70,14 +84,4 @@ Hyu-3rd-1se
 - HW7
 - HW8
 
-<br></br>
-### 프로그래밍 언어론 ./PL/
-- HW1
-	- FSA, LR 파서를 실행하는 c/c++ 함수를 만들어라
-	- 1. FSA로 부터 DFA를 build하는 함수 작성
-	- 2. LR parsing table로 부터 LR parser를 구현
-	- 3. 정규표현식으로 부터 DFA를 build하는 함수 작성
-- HW2
-	- 1. Prime들을 찾는 하스켈 함수 구현
-	- 2. flip coin
-	- 3. Jigsaw Sudoku를 해결
+
